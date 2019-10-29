@@ -7,4 +7,5 @@ curl_setopt($con, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($con, CURLOPT_HEADER, 0); 
 $output = curl_exec($con);
 curl_close($con);
+echo 'ggwp';
 ?>
